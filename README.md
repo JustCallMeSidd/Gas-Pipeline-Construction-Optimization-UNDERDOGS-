@@ -71,9 +71,9 @@ In this project, we introduce a novel approach to optimizing gas pipeline constr
 
 ### Silhouette Score
 
-One of the key novelties in our approach is the utilization of silhouette score in the context of multiple efficient lines construction. Silhouette score is typically used in clustering analysis to evaluate the quality of clusters. Here, we adapt this metric to assess the efficiency of line placement relative to the distribution of houses, providing a novel perspective on optimization.
+One of the key novelties in our approach is the utilization of silhouette score in the context of multiple efficient lines construction. Silhouette score is an extension of the k-means clustering algorithm, where the values range from -1 to 1. A value closer to 1 indicates better clustering performance, signifying that the data points are well-clustered and distant from neighboring clusters.
 
-By leveraging silhouette score, we aim to achieve a balance between minimizing the sum of distances from houses to their nearest lines while considering the inherent structure of the house distribution. This novel application enhances the robustness and effectiveness of our algorithms in real-world scenarios.
+By adapting silhouette score to our problem domain, we assess the quality of line placement relative to the distribution of houses. This metric allows us to evaluate the effectiveness of our algorithms in achieving efficient clustering of houses around gas pipelines, leading to improved optimization results.
 
 ## Contributions
 
