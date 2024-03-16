@@ -65,7 +65,7 @@ The algorithm for optimizing the construction of multiple efficient lines is imp
 
 To utilize these algorithms, follow the instructions provided in each algorithm's respective directory.
 
-## Novelty
+## Clustering Extension
 
 In this project, we introduce a novel approach to optimizing gas pipeline construction by considering various factors such as efficiency, fairness, and multiple lines simultaneously. Our algorithms incorporate innovative techniques to address these objectives, offering solutions that aim to improve upon existing methodologies.
 
