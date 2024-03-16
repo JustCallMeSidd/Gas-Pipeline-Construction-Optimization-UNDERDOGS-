@@ -51,27 +51,33 @@ This repository implements algorithms to address each objective mentioned above.
 
 ### Efficient Line Construction Algorithm
 
-The algorithm for constructing an efficient line or achieving a local minimum cost is implemented in [Algorithm_Efficient_Line](#). It employs techniques to minimize the defined cost function efficiently.
+The algorithm for constructing an efficient line or achieving a local minimum cost is implemented in Algorithm_Efficient_Line. It employs techniques to minimize the defined cost function efficiently.
 
 ### Fair Line Construction Algorithm
 
-The algorithm for constructing a fair line or achieving a local minimum maximum distance to any house is implemented in [Algorithm_Fair_Line](#). It ensures fairness in serving houses while constructing the gas pipeline.
+The algorithm for constructing a fair line or achieving a local minimum maximum distance to any house is implemented in Algorithm_Fair_Line. It ensures fairness in serving houses while constructing the gas pipeline.
 
 ### Multiple Efficient Lines Algorithm
 
-The algorithm for optimizing the construction of multiple efficient lines is implemented in [Algorithm_Multiple_Efficient_Lines](#). It introduces a novelty using silhouette score to achieve efficiency in serving houses with multiple pipelines.
+The algorithm for optimizing the construction of multiple efficient lines is implemented in Algorithm_Multiple_Efficient_Lines. It introduces a novelty using silhouette score to achieve efficiency in serving houses with multiple pipelines.
 
 ## Usage
 
 To utilize these algorithms, follow the instructions provided in each algorithm's respective directory.
 
+## Novelty
+
+In this project, we introduce a novel approach to optimizing gas pipeline construction by considering various factors such as efficiency, fairness, and multiple lines simultaneously. Our algorithms incorporate innovative techniques to address these objectives, offering solutions that aim to improve upon existing methodologies.
+
+### Silhouette Score
+
+One of the key novelties in our approach is the utilization of silhouette score in the context of multiple efficient lines construction. Silhouette score is typically used in clustering analysis to evaluate the quality of clusters. Here, we adapt this metric to assess the efficiency of line placement relative to the distribution of houses, providing a novel perspective on optimization.
+
+By leveraging silhouette score, we aim to achieve a balance between minimizing the sum of distances from houses to their nearest lines while considering the inherent structure of the house distribution. This novel application enhances the robustness and effectiveness of our algorithms in real-world scenarios.
+
 ## Contributions
 
 Contributions to improving the algorithms, optimizing efficiency, or enhancing fairness are welcome. Feel free to submit pull requests or raise issues for discussion.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
